@@ -25,7 +25,7 @@ ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 32px 0 0 ;
+    margin: 32px 0 70px ;
     padding: 0;
     overflow: hidden;
 }
@@ -61,8 +61,10 @@ h1 {
     font-size: 40px;
     margin-top: 0;
     rotate: 10deg;
-    text-align: right;
     font-weight: 800;
+    position: absolute;
+    right: 84px;
+    top: -33px;
 }
 
 h2 {
@@ -107,6 +109,7 @@ a:hover {
 
 #about {
     padding: 0 80px;
+    position: relative;
 }
 
 .development {
@@ -117,6 +120,10 @@ a:hover {
     margin: 0 40px 0 20px;
 }
 
+.left{
+    margin-left: 40px;
+    margin-right: 20px;
+}
 .flex {
     display: flex;
 }
@@ -156,8 +163,8 @@ a:hover {
     font-size: 14px;
     padding: 8px;
     text-align: center;
-
 }
+
 .Pshani {
     margin: 10px 0 10px;
 }
